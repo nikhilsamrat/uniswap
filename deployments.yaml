@@ -1,0 +1,51 @@
+blockchains:
+  - name: Ethereum
+    exchanges:
+      - name: Uniswap
+        v2: 
+          factory_address: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f_v2"
+          starting_block_number: 9000000
+        v3: 
+          factory_address: "0x1F98431c8aD98523631AE4a59f267346ea31F984"
+          starting_block_number: 12000000
+      - name: Sushiswap
+        v2: 
+          factory_address: "0xC0fFEEeFfFfFfFfFfFfFfFfFfFfFfFfFfFfFfFf_v2"
+          starting_block_number: 10500000
+        v3: 
+          factory_address: "0x0b3F1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D"
+          starting_block_number: 11500000
+
+  - name: Binance Smart Chain
+    exchanges:
+      - name: PancakeSwap
+        v2: 
+          factory_address: "0xBCfCcbde45cE874adCB698cC183deBcF17952812_v2"
+          starting_block_number: 7500000
+        v3: 
+          factory_address: "0x0b3F1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D"
+          starting_block_number: 8500000
+      - name: BakerySwap
+        v2: 
+          factory_address: "0xCDe540d7eAFfA75C2c9BfC007C6D0C0D0C0C0C0C_v2"
+          starting_block_number: 8200000
+        v3: 
+          factory_address: "0x0b3F1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D"
+          starting_block_number: 8600000
+
+  - name: Polygon
+    exchanges:
+      - name: QuickSwap
+        v2: 
+          factory_address: "0x4e68Ccd3E89f51c3074ca5074bF0E4C7aA3A3A_v2"
+          starting_block_number: 19500000
+        v3: 
+          factory_address: "0x0b3F1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D"
+          starting_block_number: 20500000
+      - name: Dfyn
+        v2: 
+          factory_address: "0xD5B5D5B5D5B5D5B5D5B5D5B5D5B5D5B5D5B5D5B5_v2"
+          starting_block_number: 20500000
+        v3: 
+          factory_address: "0x0b3F1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D"
+          starting_block_number: 21500000
